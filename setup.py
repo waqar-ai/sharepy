@@ -7,6 +7,7 @@ meaning that returned objects are familliar, easy to work with and well document
 setup(
     name="sharepy",
     version="1.3.1",
+    include_package_data = True,
     description="Simple SharePoint Online authentication for Python",
     long_description=description,
     url="https://github.com/JonathanHolvey/sharepy",
